@@ -13,7 +13,7 @@ pooPHP
 ● Separen los métodos de Request que permiten analizar una url en otra clase llamada RequestUrl, Request obtendría todos los datos de la URL del objeto RequestUrl, ej:
 
 <code>
-$requestUrl = new RequestUrl($url);<br>
+$requestUrl = new RequestUrl($url);\n
 $request = new Request($requestUrl);
 </code>
 
