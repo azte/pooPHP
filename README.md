@@ -14,7 +14,6 @@ pooPHP
 
 <pre>
 $requestUrl = new RequestUrl($url);
-
 $request = new Request($requestUrl);
 </pre>
 
