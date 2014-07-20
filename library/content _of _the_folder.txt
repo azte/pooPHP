@@ -1,0 +1,1 @@
+Todos los objetos reusables para toda la aplicación.

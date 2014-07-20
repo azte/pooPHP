@@ -1,0 +1,13 @@
+# si el modulo existe
+<ifModule mod_rewrite.c>
+	# encendemos el modulo
+	RewriteEngine on 
+	# si el file no existe
+	RewriteCond %{REQUEST_FILENAME} !-f 
+	# ejecuta la url que esta aqui
+	RewriteRule ^(.*)$ index.php?url=$1 [QSA,L] 
+</IfModule>
+
+# con este código mi htacces convierte una url amigable en una url que puede utilizar mi app
+# /contactos
+# /index.php?url=contactos
