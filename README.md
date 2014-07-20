@@ -12,12 +12,11 @@ pooPHP
 ● Creen nuevos objetos de tipo Response (similar a View) pero para Json, Strings, u otros formatos<br>
 ● Separen los métodos de Request que permiten analizar una url en otra clase llamada RequestUrl, Request obtendría todos los datos de la URL del objeto RequestUrl, ej:
 
-<code>
+<pre>
 $requestUrl = new RequestUrl($url);
-</code>
-<code>
+
 $request = new Request($requestUrl);
-</code>
+</pre>
 
 <h4>Bonus Task:</h4>
 Integren bootstrap en el layout.tpl.php
